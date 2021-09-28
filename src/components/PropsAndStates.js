@@ -7,7 +7,7 @@ export const PropsAndState = ({ yourName, day }) => {
   let [colorIndex, setColorIndex ] = useState(0);
   // countClicks and setCountClicks are properties of useState , useState set to 0 by default
 
-  const allColors = ['red', 'blue', 'orange'];
+  const allColors = ['green', 'cyan', 'lightblue'];
 
   const handleClick = () => {
     const newCountClicks = ++countClicks
