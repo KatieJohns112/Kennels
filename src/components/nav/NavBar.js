@@ -21,5 +21,8 @@ export const NavBar = () => {
                 <Link className="navbar__link" to="/employees">Employees</Link>
             </li>
         </ul>
+        // "to" = / is what you want it to look like in web address ex. Kennels.com/Employees
+        // 'Link" is imported from react-router-dom found in nodemodules.js
     )
 }
+
