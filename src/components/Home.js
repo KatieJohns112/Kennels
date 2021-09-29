@@ -21,3 +21,5 @@ export const Home = ( {isAdmin} ) => (
         <PropsAndState yourName={"Katie"} day={"Tuesday"} />
     </>
 )
+
+

@@ -1,10 +1,12 @@
 import React, { useState } from "react"
 import './PropsAndStates.css'
-
+import { CurrentDate } from "./helpers/helper";
 // component runs top to bottom 
 export const PropsAndState = ({ yourName, day }) => {
   let [countClicks, setCountClicks] = useState(0);
   let [colorIndex, setColorIndex ] = useState(0);
+
+
   // countClicks and setCountClicks are properties of useState , useState set to 0 by default
 
   const allColors = ['green', 'cyan', 'lightblue'];
@@ -23,6 +25,8 @@ export const PropsAndState = ({ yourName, day }) => {
 
   return (
     <>
+
+    <CurrentDate />
       <h3>Welcome, {yourName}</h3>
       <p>Today is {day}</p>
       <p className={allColors[colorIndex]}>{countClicks}</p>
@@ -30,3 +34,4 @@ export const PropsAndState = ({ yourName, day }) => {
     </>
   )
 }
+

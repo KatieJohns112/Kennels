@@ -2,9 +2,18 @@ import React from "react"
 import "./Employee.css"
 
 // this is a component
-export const EmployeeCard = () => (
-    <section className="employee">
-        <h3 className="employee__name">Emma Beaton</h3>
-        <div className="employee__address">Nashville Kennels North</div>
-    </section>
-)
+export const EmployeeCard = ({ employee }) => {
+    return (
+      <div className="card">
+        <div className="card-content">
+          <picture>
+            <img src={require('../../images/blonde-puppy.jpeg')} alt="My Dog" />
+          </picture>
+          <h3>Name: <span className="card-employeename">
+            {employee.name}
+          </span></h3>
+          <p>Address: {employee.address}</p>
+        </div>
+      </div>
+    );
+  }
