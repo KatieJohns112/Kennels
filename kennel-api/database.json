@@ -2,23 +2,46 @@
     "animals": [
         { "id": 1, "name": "Doodles", "breed": "Poodle"},
         { "id": 2, "name": "Decker", "breed": "German Shepherd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+        { "id": 3, "name": "Esme", "breed": "Pitbull" },
+        { "id": 4, "name": "Teddi", "breed": "Pomeranian Poodle" },
+        { "id": 5, "name": "Angus", "breed": "Golden Doodle" },
+        { "id": 6, "name": "Maxie", "breed": "Teacup Poodle" },
+        { "id": 7, "name": "Jefferson", "breed": "Siberian Husky" },
+        { "id": 8, "name": "Kit", "breed": "Pug" },
+        { "id": 9, "name": "Alex", "breed": "Poodle" },
+        { "id": 10, "name": "Puppy", "breed": "Pomeranian Poodle" }
+
     ],
     "customers": [
         {
             "id": 1,
             "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "address": "7002 Chestnut Ct",
+            "phone": 6154564321
         },
         {
             "id": 2,
             "name": "Clay Massie",
-            "address": "7000 Chestnut Ct"
+            "address": "7000 Chestnut Ct",
+            "phone": 6154564321
         },
         {
             "id": 3,
             "name": "Susan Ryan",
-            "address": "6098 Chestnut Ct"
+            "address": "6098 Chestnut Ct",
+            "phone": 6154564321
+        },
+        {
+            "id": 4,
+            "name": "Josh Johns",
+            "address": "6096 Chestnut Ct",
+            "phone": 6154564321
+        },
+        {
+            "id": 5,
+            "name": "Sue Ryan",
+            "address": "6094 Chestnut Ct",
+            "phone": 6154564321
         }
     ],
     "employees": [
@@ -34,8 +57,18 @@
         },
         {
             "id": 3,
-            "name": "Tori Massie",
+            "name": "Tom Ryan",
             "address": "205 Emory Drive"
+        },
+        {
+            "id": 4,
+            "name": "Amanda Warner",
+            "address": "203 Emory Drive"
+        },
+        {
+            "id": 5,
+            "name": "Kevin Johns",
+            "address": "201 Emory Drive"
         }
     ],
     "locations": [
@@ -53,6 +86,16 @@
             "id": 3,
             "name": "Nashville West",
             "address": "507 Armory Drive"
+        },
+        {
+            "id": 4,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        },
+        {
+            "id": 5,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
         }
     ]
 }
