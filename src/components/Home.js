@@ -12,7 +12,7 @@ export const Home = ( {isAdmin} ) => (
     {/* terinary statement */}
 
         <h2>Nashville Kennels</h2>
-        <small>Loving care when you're not there.</small>
+        <large>Loving care when you're not there.</large>
 
         <address>
             <div>Visit Us at the Nashville North Location</div>

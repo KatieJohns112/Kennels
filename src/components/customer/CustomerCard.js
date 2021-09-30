@@ -13,14 +13,13 @@ export const CustomerCard = ({ customer }) => {
     return (
       <div className="card">
         <div className="card-content">
-          <picture>
-            <img src={require('../../images/blonde-puppy.jpeg')} alt="My Dog" />
-          </picture>
           <h3>Name: <span className="card-customername">
             {customer.name}
           </span></h3>
           <p>Address: {customer.address}</p>
           <p>Phone: {customer.phone}</p>
+          <p>Animal: {customer.animal}</p>
+          <p>Drop off day: {customer.dropOffDay}</p>
         </div>
       </div>
     );

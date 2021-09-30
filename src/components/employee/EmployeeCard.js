@@ -6,13 +6,12 @@ export const EmployeeCard = ({ employee }) => {
     return (
       <div className="card">
         <div className="card-content">
-          <picture>
-            <img src={require('../../images/blonde-puppy.jpeg')} alt="My Dog" />
-          </picture>
           <h3>Name: <span className="card-employeename">
             {employee.name}
           </span></h3>
           <p>Address: {employee.address}</p>
+          <p>Available: {employee.available}</p>
+          <p>Enjoys: {employee.enjoys}</p>
         </div>
       </div>
     );
