@@ -45,3 +45,9 @@
   .card button:hover {
     background-color: darkblue;
   }
+
+  .container-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  }

@@ -1,7 +1,7 @@
 import React from "react"
 import "./Animal.css"
 
-export const AnimalCard = ({ animal }) => {
+export const AnimalCard = ({ animal, handleDeleteAnimal }) => {
     return (
       <div className="card">
         <div className="card-content">
@@ -16,6 +16,7 @@ export const AnimalCard = ({ animal }) => {
           <p>Likes: {animal.likes}</p>
           <p>Weight: {animal.weight}</p>
           <p>Social: {animal.social}</p>
+          <button type="button" onClick={() => handleDeleteAnimal(animal.id)}>Discharge</button>
         </div>
       </div>
     );
