@@ -9,7 +9,7 @@ import "./Customer.css"
 //     </section>
 // )
 
-export const CustomerCard = ({ customer }) => {
+export const CustomerCard = ({ customer, handleDeleteCustomer }) => {
     return (
       <div className="card">
         <div className="card-content">
@@ -20,6 +20,7 @@ export const CustomerCard = ({ customer }) => {
           <p>Phone: {customer.phone}</p>
           <p>Animal: {customer.animal}</p>
           <p>Drop off day: {customer.dropOffDay}</p>
+          <button type="button" onClick={() => handleDeleteCustomer(customer.id)}>Delete</button>
         </div>
       </div>
     );

@@ -2,7 +2,7 @@ import React from "react"
 import "./Employee.css"
 
 // this is a component
-export const EmployeeCard = ({ employee }) => {
+export const EmployeeCard = ({ employee, handleDeleteEmployee }) => {
     return (
       <div className="card">
         <div className="card-content">
@@ -12,6 +12,7 @@ export const EmployeeCard = ({ employee }) => {
           <p>Address: {employee.address}</p>
           <p>Available: {employee.available}</p>
           <p>Enjoys: {employee.enjoys}</p>
+          <button type="button" onClick={() => handleDeleteEmployee(employee.id)}>Terminate</button>
         </div>
       </div>
     );

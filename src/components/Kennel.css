@@ -12,6 +12,7 @@ textarea {
   font-family: "Comfortaa", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  margin-left: 5%;
 }
 
 h1,
@@ -22,12 +23,14 @@ h5,
 h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+  margin-left: 5%;
 }
 
 p {
   margin-bottom: 1.5em;
   color: #d6fcff;
   color: black;
+  margin-left: 5%;
 }
 
 strong {
@@ -36,4 +39,5 @@ strong {
 
 address {
   margin: 0 0 1.5em;
+  margin-left: 5%;
 }

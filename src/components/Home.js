@@ -1,5 +1,7 @@
 import React from "react";
 import { PropsAndState } from './PropsAndStates'
+import { QuotesList } from "./quotes/QuotesList";
+
 
 export const Home = ( {isAdmin} ) => (
     <>
@@ -12,13 +14,14 @@ export const Home = ( {isAdmin} ) => (
     {/* terinary statement */}
 
         <h2>Nashville Kennels</h2>
-        <large>Loving care when you're not there.</large>
+        <h2>Loving care when you're not there.</h2>
 
         <address>
             <div>Visit Us at the Nashville North Location</div>
             <div>500 Puppy Way</div>
         </address>
         <PropsAndState yourName={"Katie"} day={"Tuesday"} />
+        <QuotesList/>
     </>
 )
 
