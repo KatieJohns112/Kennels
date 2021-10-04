@@ -143,18 +143,6 @@
       "social": "yes",
       "customerId": 1,
       "locationId": 1
-    },
-    {
-      "name": "sally",
-      "breed": "dog",
-      "image": "mastif.jpeg",
-      "birthday": "01/14/2021",
-      "likes": "running",
-      "weight": "130",
-      "social": "yes",
-      "locationId": 1,
-      "customerId": 7,
-      "id": 13
     }
   ],
   "customers": [

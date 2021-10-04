@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { AnimalCard } from './AnimalCard';
 import { getAllAnimals, getAnimalById, deleteAnimal } from '../../modules/AnimalManager';
 import { useHistory } from 'react-router-dom';
+import "./AnimalList.css"
 
 export const AnimalList = () => {
   // The initial state is an empty array
@@ -36,7 +37,7 @@ export const AnimalList = () => {
     <button type="button"
       className="btn"
       onClick={() => {history.push("/animals/create")}}>
-      Admit Animal
+      Create new Animal Card
     </button>
   </section>
   <div className="container-cards">

@@ -43,8 +43,8 @@
     width: 100%;
   }
   
-  .card_animal button:hover {
-    background-color: lightgray;
+ button:hover {
+    background-color: darkgray;
   }
 ​
   .container-cards {
@@ -52,4 +52,9 @@
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: tan;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 1.5em;
   }

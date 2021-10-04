@@ -4,6 +4,7 @@ import "./NavBar.css"
 
 export const NavBar = () => {
     return (
+      
         <ul className="navbar">
             <li className="navbar__item active">
                 <Link className="navbar__link" to="/">NSS Kennels</Link>
@@ -21,6 +22,7 @@ export const NavBar = () => {
                 <Link className="navbar__link" to="/employees">Employees</Link>
             </li>
         </ul>
+     
         // "to" = / is what you want it to look like in web address ex. Kennels.com/Employees
         // 'Link" is imported from react-router-dom found in nodemodules.js
     )
