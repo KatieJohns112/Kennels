@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+
+#root > .card {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+  .animal {
+      padding-left: 35%;
+      font-family: "Comfortaa", Arial, sans-serif;
+  }
+
+  h4 {
+      padding-left: 10%;
+      margin-right: 69%;
+      font-size: larger;
+      border-style: solid;
+  }
+

@@ -9,5 +9,5 @@
     
 //     const reloadQuote = () => {
 //         getRandomQuote().then(()
-//     }
+//         )}
 // }
