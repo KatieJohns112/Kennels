@@ -10,6 +10,7 @@ import { AnimalForm } from "./animal/AnimalForm"
 import { Redirect, } from "react-router"
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
+import { AnimalEditForm } from "./animal/AnimalEditForm"
 
 export const ApplicationViews = ( {isAdmin} ) => {
 
@@ -36,7 +37,11 @@ const setAuthUser = (user) => {
             {isAuthenticated ? <AnimalList /> : <Redirect to="/login" />}
             </Route>
 
-            <Route path="/animals/:animalId(\d+)">
+            <Route path="/animals/:animalId(\d+)/edit">
+              {isAuthenticated ?<AnimalEditForm />: <Redirect to="/login" />}
+            </Route>
+
+            <Route exact path="/animals/:animalId(\d+)">
               {/* "animalId is used on line " */}
               <AnimalDetail />
             </Route>

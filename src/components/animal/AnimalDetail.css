@@ -18,3 +18,20 @@
       border-style: solid;
   }
 
+  .animal_info {
+    border-style: solid;
+    margin-bottom: 1em;
+    border-color:antiquewhite;
+    border-width: 1vw;
+    width: 26vw;
+    padding-left: 2vw;
+    
+  }
+
+  .animal img {
+      width: 30vw;
+      padding-bottom: 1vw;
+  }
+
+
+

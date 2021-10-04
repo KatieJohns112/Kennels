@@ -46,18 +46,21 @@ export const AnimalDetail = () => {
       <div className="animal__breed">{animal.breed}</div> */}
      {/*if animal.image is blank string: if true returns image if false returns "there isnt an image" */}
       {animal.image != "" ?  <img src={require(`../../images/${animal.image}`).default} alt="my dog" className="animal__image"/> : <p>There isn't an image.</p>}
-      
+      <section className="animal_info">
       <h4 className="animal__name">{animal.name}</h4>
       <div className="animal__breed">{animal.breed}</div>
-      <div className="animal__birthday">{animal.birthday}</div>
-      <div className="animal__likes">{animal.likes}</div>
-      <div className="animal__weight">{animal.weight}</div>
-      <div className="animal__social">{animal.social}</div>
-      <div className="animal_customerId">{animal.customerId}</div>
-      <div className="animal_locationId">{animal.locationId}</div>
+      <div className="animal__birthday">My birthday is : {animal.birthday}</div>
+      <div className="animal__likes">I enjoy : {animal.likes}</div>
+      <div className="animal__weight">I weigh : {animal.weight}</div>
+      <div className="animal__social"> Is animal social? {animal.social}</div>
+      <div className="animal_customerId">Customer ID number : {animal.customerId}</div>
+      <div className="animal_locationId">Location ID number : {animal.locationId}</div>
+      </section>
+      <section className="animal_button">
       <button type="button" disabled={isLoading} onClick={handleDelete}>
           Discharge
         </button>
+      </section>
       {/* What's up with the question mark???? See below.*/}
       {/* <div className="animal__location">Location: {animal.location?.name}</div>
       <div className="animal__owner">Customer: {animal.customer?.name}</div> */}
