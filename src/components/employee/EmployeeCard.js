@@ -4,8 +4,8 @@ import "./Employee.css"
 // this is a component
 export const EmployeeCard = ({ employee, handleDeleteEmployee }) => {
     return (
-      <div className="card">
-        <div className="card-content">
+      <div className="card_employee">
+        <div className="card_content_employee">
           <h3>Name: <span className="card-employeename">
             {employee.name}
           </span></h3>

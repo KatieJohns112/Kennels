@@ -11,13 +11,14 @@ import "./Customer.css"
 
 export const CustomerCard = ({ customer, handleDeleteCustomer }) => {
     return (
-      <div className="card">
-        <div className="card-content">
+      <div className="card_customer">
+        <div className="card_content_customer">
           <h3>Name: <span className="card-customername">
             {customer.name}
           </span></h3>
           <p>Address: {customer.address}</p>
           <p>Phone: {customer.phone}</p>
+          <p>Email: {customer.email}</p>
           <p>Animal: {customer.animal}</p>
           <p>Drop off day: {customer.dropOffDay}</p>
           <button type="button" onClick={() => handleDeleteCustomer(customer.id)}>Delete</button>

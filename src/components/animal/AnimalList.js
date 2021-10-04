@@ -1,45 +1,14 @@
-// import React from 'react';
-
-// export const AnimalList = () => {
-//     return (
-//         <div className="container-cards">
-//         We'll put some animals here eventually...
-//         </div>
-//     );
-// };
-
-// import React, { useEffect } from 'react';
-// import { getAllAnimals, getAnimalById } from '../../modules/AnimalManager';
-
-// export const AnimalList = () => {
-//   const getAnimals = () => {
-//     return getAllAnimals().then(animalsFromAPI => {
-//       // We'll do something more interesting with this data soon.
-//       console.log(animalsFromAPI);
-//     });
-//   };
-
-//   useEffect(() => {
-//     getAnimals();
-//   }, []);
-
-//   return (
-//     <div className="container-cards">
-//       We'll put some animals here eventually...
-//     </div>
-//   );
-// };
-
-
-
 import React, { useState, useEffect } from 'react';
 //import the components we will need
 import { AnimalCard } from './AnimalCard';
 import { getAllAnimals, getAnimalById, deleteAnimal } from '../../modules/AnimalManager';
+import { useHistory } from 'react-router-dom';
 
 export const AnimalList = () => {
   // The initial state is an empty array
   const [animals, setAnimals] = useState([]);
+
+  const history = useHistory();
 
   const getAnimals = () => {
     // After the data comes back from the API, we
@@ -48,11 +17,11 @@ export const AnimalList = () => {
       setAnimals(animalsFromAPI)
     });
   };
-// make sure to import deleteAnimal from AnimalCard
+  // make sure to import deleteAnimal from AnimalCard
   const handleDeleteAnimal = id => {
     deleteAnimal(id)
-    .then(() => getAllAnimals().then(setAnimals));
-};
+      .then(() => getAllAnimals().then(setAnimals));
+  };
 
   // got the animals from the API on the component's first render
   useEffect(() => {
@@ -60,18 +29,27 @@ export const AnimalList = () => {
   }, []);
 
   // Finally we use .map() to "loop over" the animals array to show a list of animal cards
-  return(
-    <div className="container-cards">
+  return (
+<>
+    {/* //add this button above your display of animal cards */}
+  <section className="section-content">
+    <button type="button"
+      className="btn"
+      onClick={() => {history.push("/animals/create")}}>
+      Admit Animal
+    </button>
+  </section>
+  <div className="container-cards">
       {animals.map(animal =>
         <AnimalCard key={animal.id} animal={animal} handleDeleteAnimal={handleDeleteAnimal} />
         // add handDeleteAnimal to display on animal card
       )}
-    </div>
+  </div>
+    </>
   );
 };
 
 
 
 
-  
- 
+

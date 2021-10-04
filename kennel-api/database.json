@@ -1,200 +1,350 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle", "image": "poodle.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes" },
-        { "id": 2, "name": "Decker", "breed": "German Shepherd", "image": "germanshep.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull", "image": "pitbull.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes"  },
-        { "id": 4, "name": "Teddi", "breed": "Pomeranian Poodle", "image": "pomeranianpoodle.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes" },
-        { "id": 5, "name": "Angus", "breed": "Golden Doodle", "image": "goldendoodle.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes" },
-        { "id": 6, "name": "Maxie", "breed": "Teacup Poodle", "image": "toypoodle.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds" , "social": "yes" },
-        { "id": 7, "name": "Jefferson", "breed": "Siberian Husky", "image": "husky.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes"  },
-        { "id": 8, "name": "Kit", "breed": "Pug", "image": "pug.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds", "social": "yes"  },
-        { "id": 9, "name": "Alex", "breed": "Poodle", "image": "bigpoodle.jpeg", "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds" , "social": "yes" },
-        { "id": 10, "name": "Marvin", "breed": "Dalmatian", "image": "dalmatian.jpeg" , "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds" , "social": "yes"},
-        { "id": 11, "name": "Jessy", "breed": "Collie", "image": "collie.jpeg" , "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds" , "social": "yes"},
-        { "id": 12, "name": "Oliver", "breed": "Mastiff", "image": "mastif.jpeg" , "birthday": "01/14/2021", "likes": "running, playing fetch, cuddling and eatting", "weight": "20 pounds" , "social": "yes"}
-
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 2,
-            "name": "Clay Massie",
-            "address": "7000 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 3,
-            "name": "Susan Ryan",
-            "address": "6098 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 4,
-            "name": "Josh Johns",
-            "address": "6096 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 5,
-            "name": "Sue Ryan",
-            "address": "6094 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 6,
-            "name": "John Carr",
-            "address": "6092 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 7,
-            "name": "Max Smith",
-            "address": "6090 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 8,
-            "name": "Jessie Jones",
-            "address": "6088 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 9,
-            "name": "Sarah Kirk",
-            "address": "6086 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 10,
-            "name": "Ashley Smalls",
-            "address": "6084 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 11,
-            "name": "Max West",
-            "address": "6082 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        },
-        {
-            "id": 12,
-            "name": "Lee Carr",
-            "address": "6080 Chestnut Ct",
-            "phone": 6154564321,
-            "animal": "poodle",
-            "dropOffDay": "Monday"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Katie Johns",
-            "address": "209 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 2,
-            "name": "Ashley Main",
-            "address": "207 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 3,
-            "name": "Tom Ryan",
-            "address": "205 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 4,
-            "name": "Amanda Warner",
-            "address": "203 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 5,
-            "name": "Kevin Johns",
-            "address": "201 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 6,
-            "name": "Alex True",
-            "address": "199 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 7,
-            "name": "Mark Green",
-            "address": "197 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        },
-        {
-            "id": 8,
-            "name": "Lexi Marcus",
-            "address": "195 Emory Drive",
-            "available": "Monday - Friday",
-            "enjoys": "taking dogs on walks and grooming animals"
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        },
-        {
-            "id": 3,
-            "name": "Nashville West",
-            "address": "507 Armory Drive"
-        },
-        {
-            "id": 4,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        },
-        {
-            "id": 5,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "image": "poodle.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "image": "germanshep.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull",
+      "image": "pitbull.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Teddi",
+      "breed": "Pomeranian Poodle",
+      "image": "pomeranianpoodle.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "name": "Angus",
+      "breed": "Golden Doodle",
+      "image": "goldendoodle.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 6,
+      "name": "Maxie",
+      "breed": "Teacup Poodle",
+      "image": "toypoodle.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 7,
+      "name": "Jefferson",
+      "breed": "Siberian Husky",
+      "image": "husky.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 8,
+      "name": "Kit",
+      "breed": "Pug",
+      "image": "pug.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 9,
+      "name": "Alex",
+      "breed": "Poodle",
+      "image": "bigpoodle.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 10,
+      "name": "Marvin",
+      "breed": "Dalmatian",
+      "image": "dalmatian.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 11,
+      "name": "Jessy",
+      "breed": "Collie",
+      "image": "collie.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 12,
+      "name": "Oliver",
+      "breed": "Mastiff",
+      "image": "mastif.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running, playing fetch, cuddling and eatting",
+      "weight": "20 pounds",
+      "social": "yes",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "name": "sally",
+      "breed": "dog",
+      "image": "mastif.jpeg",
+      "birthday": "01/14/2021",
+      "likes": "running",
+      "weight": "130",
+      "social": "yes",
+      "locationId": 1,
+      "customerId": 7,
+      "id": 13
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "hannah@gmail.com"
+    },
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Hannah@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Clay Massie",
+      "address": "7000 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Clay@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Josh Johns",
+      "address": "6096 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Josh@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Sue Ryan",
+      "address": "6094 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "sue@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "John Carr",
+      "address": "6092 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "John@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Max Smith",
+      "address": "6090 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Max@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Jessie Jones",
+      "address": "6088 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Jessie@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Sarah Kirk",
+      "address": "6086 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Sarah@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Ashley Smalls",
+      "address": "6084 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Ashley@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Max West",
+      "address": "6082 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "max@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Lee Carr",
+      "address": "6080 Chestnut Ct",
+      "phone": 6154564321,
+      "animal": "poodle",
+      "dropOffDay": "Monday",
+      "email": "Lee@gmail.com"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Katie Johns",
+      "address": "209 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 2,
+      "name": "Ashley Main",
+      "address": "207 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 3,
+      "name": "Tom Ryan",
+      "address": "205 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 4,
+      "name": "Amanda Warner",
+      "address": "203 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 5,
+      "name": "Kevin Johns",
+      "address": "201 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 6,
+      "name": "Alex True",
+      "address": "199 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 7,
+      "name": "Mark Green",
+      "address": "197 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    },
+    {
+      "id": 8,
+      "name": "Lexi Marcus",
+      "address": "195 Emory Drive",
+      "available": "Monday - Friday",
+      "enjoys": "taking dogs on walks and grooming animals"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville West",
+      "address": "507 Armory Drive"
+    },
+    {
+      "id": 4,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { PropsAndState } from './PropsAndStates'
-import { QuotesList } from "./quotes/QuotesList";
+// import { QuotesList } from "./quotes/QuotesList";
 
 
 export const Home = ( {isAdmin} ) => (
@@ -21,7 +21,7 @@ export const Home = ( {isAdmin} ) => (
             <div>500 Puppy Way</div>
         </address>
         <PropsAndState yourName={"Katie"} day={"Tuesday"} />
-        <QuotesList/>
+        {/* <QuotesList/> */}
     </>
 )
 
