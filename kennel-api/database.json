@@ -86,7 +86,7 @@
     },
     {
       "id": 8,
-      "name": "Kit",
+      "name": "James",
       "breed": "Pug",
       "image": "pug.jpeg",
       "birthday": "01/14/2021",
@@ -317,22 +317,59 @@
     {
       "id": 1,
       "name": "Nashville North",
-      "address": "8422 Johnson Pike"
+      "address": "8422 Johnson Pike",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$$"
     },
     {
       "id": 2,
-      "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "name": "Chattanooga Station",
+      "address": "209 Emory Drive",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$"
     },
     {
       "id": 3,
-      "name": "Nashville West",
-      "address": "507 Armory Drive"
+      "name": "Midtown Helpers",
+      "address": "507 Armory Drive",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$$"
     },
     {
       "id": 4,
       "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "address": "507 Emory Drive",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$$"
+    },
+    {
+      "id": 5,
+      "name": "Sumner Kennels",
+      "address": "765 Johnson Pike",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$$"
+    },
+    {
+      "id": 6,
+      "name": "Louisville North",
+      "address": "205 Eastland Road",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$"
+    },
+    {
+      "id": 7,
+      "name": "Memphis Kennel",
+      "address": "9 Woodmont Street",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$$"
+    },
+    {
+      "id": 8,
+      "name": "Springfield Station",
+      "address": "542 Circle Drive",
+      "hours": "9 a.m to 5 p.m.",
+      "price": "$"
     }
+    
   ]
 }

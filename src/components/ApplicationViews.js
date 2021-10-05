@@ -12,7 +12,7 @@ import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
 import { AnimalEditForm } from "./animal/AnimalEditForm"
 
-export const ApplicationViews = ( {isAdmin} ) => {
+export const ApplicationViews = (  ) => {
 
 const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("kennel_customer") !== null)
 
@@ -24,7 +24,7 @@ const setAuthUser = (user) => {
         <>
             {/* Render the location list when http://localhost:3000/ */}
             <Route exact path="/">
-                <Home isAdmin={isAdmin}/>
+                <Home />
             </Route>
 
             {/* // Our shiny new route. */}

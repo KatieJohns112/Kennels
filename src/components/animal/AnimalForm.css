@@ -6,12 +6,13 @@ fieldset {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     background: aliceblue;
+    padding-left: 2%;
 }
 
 fieldset input, fieldset button, fieldset select{
     box-sizing: border-box;
-    padding: .2em .4em;
-    margin: .2em 0;
+    padding: 2em 4em;
+    margin: 2em 0;
     outline: none;
     box-shadow: none;
 }
@@ -22,7 +23,7 @@ fieldset button {
     margin: .3em auto;
     background-color: cornflowerblue;
     border: none;
-    color: cornsilk;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -59,3 +60,22 @@ fieldset input, fieldset button, fieldset select {
 fieldset .alignRight {
     text-align: right;
 }
+
+.animalForm {
+    padding-left: 32%;
+}
+
+.label {
+    padding-left: 2%;
+}
+
+h2 {
+    color: black;
+    padding-left: 13%;
+}
+
+label {
+    color: black;
+    padding-left: 3%;
+}
+
