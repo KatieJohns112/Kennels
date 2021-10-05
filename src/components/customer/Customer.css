@@ -11,12 +11,12 @@
   .card-content {
     padding: .5em;
   }
-  
-  .card-content h3 {
+
+  .card_content_customer h3 {
     margin-top: 0;
     margin-bottom: .5em;
     font-weight: bold;
-    color: rgb(43, 112, 241);
+    color: black;
   }
   
   .card-content p {

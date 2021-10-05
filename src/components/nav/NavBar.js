@@ -1,8 +1,15 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link, useHistory} from "react-router-dom"
 import "./NavBar.css"
 
-export const NavBar = () => {
+export const NavBar = ({ clearUser, isAuthenticated }) => {
+    const history = useHistory()
+
+    const handleLogout = () => {
+        clearUser();
+        history.push('/');
+    }
+
     return (
       
         <ul className="navbar">
@@ -18,9 +25,16 @@ export const NavBar = () => {
             <li className="navbar__item">
                 <Link className="navbar__link" to="/customers">Customers</Link>
             </li>
-            <li className="navbar__item">
+             <li className="navbar__item">
                 <Link className="navbar__link" to="/employees">Employees</Link>
             </li>
+            {isAuthenticated
+                ? <li className="navbar__item">
+                    <span className="navbar__link" onClick={handleLogout}> Logout </span>
+                </li>
+                : <li className="navbar__item">
+                    <Link className="navbar__link" to="/login">Login</Link>
+                </li>}
         </ul>
      
         // "to" = / is what you want it to look like in web address ex. Kennels.com/Employees
